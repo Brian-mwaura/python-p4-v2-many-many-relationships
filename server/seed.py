@@ -10,7 +10,7 @@ with app.app_context():
     # Delete all rows in tables
     db.session.query(employee_meetings).delete()
     db.session.commit()
-    Employee.query.delete()
+    Employee.query.delet()
     Meeting.query.delete()
     Project.query.delete()
     Assignment.query.delete()
